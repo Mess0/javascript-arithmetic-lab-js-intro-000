@@ -7,7 +7,7 @@ var dec = (a) => a - 1;
 var makeInt = (a) => parseInt(a, 10);
 var makeInt = (a) => parseInt(a, 10);
 var makeInt = (a) => {
-  if (isNaN(a)){
+  if (!isNaN(a)){
     return true;
   }
 }

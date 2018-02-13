@@ -5,9 +5,9 @@ var divide = (a, b) => a / b;
 var inc = (a) => a + 1;
 var dec = (a) => a - 1;
 var makeInt = (a) => parseInt(a, 10);
-var makeInt = (a) => parseInt(a, 10);
-var makeInt = (a) => {
-  if (!isNaN(a)){
+var makeInt = (b) => parseInt(b, 10);
+var makeInt = (c) => {
+  if (!isNaN(c)){
     return true;
   }
 }

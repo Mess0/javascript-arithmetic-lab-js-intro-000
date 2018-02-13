@@ -6,5 +6,5 @@ var inc = (a) => a + 1;
 var dec = (a) => a - 1;
 var makeInt = (a) => parseInt(a, 10);
 var makeInt = (a) => parseInt(a, 2);
-var makeInt = (a) => isNaN(a);
+var makeInt = (a) => if(isNaN(a)) true;
 var preserveDecimal = (a) => parseFloat(a);

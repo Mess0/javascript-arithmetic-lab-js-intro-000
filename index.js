@@ -4,13 +4,8 @@ var multiply = (a, b) => a * b;
 var divide = (a, b) => a / b;
 var inc = (a) => a + 1;
 var dec = (a) => a - 1;
-var makeInt = (a) =>
-  return
-parseInt(a, 10),
-  parseInt(a, 10),
-  if (!isNaN(a)) {
-    return true;
-  }
+var makeInt = (a) =>{ return parseInt(a, 10),parseInt(a, 10);}
+
 
 
 // var makeInt = (a) => parseInt(b, 10);

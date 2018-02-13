@@ -9,6 +9,6 @@ var makeInt = (a) => parseInt(a, 10);
 var makeInt = (a) => {
   if (isNaN(a)){
     return true;
-  }  
+  }
 }
 var preserveDecimal = (a) => parseFloat(a);
